@@ -1,6 +1,6 @@
 import {NestedElements, Attribute, JSExpression, Styling} from './1. JSXElements'
 import { ClassBasedComponent, FunctionalComponent } from './2. StatelessComponent'
-
+import StateFulExample from './3. StatefulComponent'
 
 function App() {
   return (
@@ -26,6 +26,9 @@ function App() {
           
         {/** 2.2. Class Based Component */}
           <ClassBasedComponent />
+
+        {/** 2.3. Stateful Component */}
+          <StateFulExample />
     </div>
   );
 }

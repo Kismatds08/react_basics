@@ -1,6 +1,6 @@
 import React from 'react'
 
-// Components 
+// Stateless Components 
 
 // 1. Functional Component
 
