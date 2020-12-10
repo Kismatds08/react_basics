@@ -21,20 +21,21 @@ const Attribute = () => {
             {/** Custom Attributes */}
             <p data-myattribute="somevalue"></p>
         </div>
-    )_
+    )
 }
 
 // 3. Javascript Expressions
 const JSExpression = () => {
     var a = 10
     var b = 11
-    var c, i =0
+    var c,i =0
     return(
         <div>
             <h1> Javascript Expression</h1>
             {/** {} -> Data Binding  */}
             <p>Sum of a and b {c = a +b}</p>
-            <p>{ i == 1 ? 'True': 'False'}</p>
+            <p>Value of c: {c}</p>
+            <p>{ i === 1 ? 'True': 'False'}</p>
         </div>
     )
 }

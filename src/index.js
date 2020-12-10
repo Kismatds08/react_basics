@@ -8,13 +8,9 @@ import ReactDOM from 'react-dom';
 
 // Some Additional JS File called App.js
 import App from './App.js';
-import App1 from './App1.js';
 
 ReactDOM.render(
-    <div>
-      <App />
-      <App1 />
-    </div>, // JSX Tag -> 1st Parameter
+    <App />, // JSX Tag -> 1st Parameter
   document.getElementById('root') // document.getElementByID('root') => 2nd Parameter
 );
 
