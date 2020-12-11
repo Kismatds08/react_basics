@@ -2,6 +2,7 @@ import React from 'react'
 
 // StateFul Component
 
+// Container Component/ Parent Component
 class StateFulExample extends React.Component{
 
     // Custom Constructor
@@ -33,11 +34,14 @@ class StateFulExample extends React.Component{
         // Return JSX based Elements to Render Function
         return (
             <div>
+                {/** Child Component */}
                 <Header />
                 <table>
                     <tbody>
                         {
+                            
                             this.state.data.map(
+                                // Table Row Child Component 
                                 (Person, i) => <TableRow key = {i} datasd ={Person} />
                             )
                         }
